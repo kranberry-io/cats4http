@@ -45,6 +45,9 @@ dependencies {
     implementation(libs.compose.material3)
     implementation(libs.androidx.activity.compose)
     debugImplementation(libs.compose.ui.tooling)
+    implementation(libs.androidx.constraintlayout.compose)
+    // Coil (image loader)
+    implementation(libs.coil.compose)
 
     // Import the Compose BOM
     implementation(platform("androidx.compose:compose-bom:2023.06.01"))

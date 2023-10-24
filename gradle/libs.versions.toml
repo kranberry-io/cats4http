@@ -1,5 +1,7 @@
 [versions]
 agp = "8.1.0"
+coilCompose = "2.4.0"
+constraintlayoutCompose = "1.0.1"
 kotlin = "1.9.10"
 compose = "1.5.1"
 compose-compiler = "1.5.3"
@@ -7,6 +9,8 @@ compose-material3 = "1.1.2"
 androidx-activityCompose = "1.7.2"
 
 [libraries]
+androidx-constraintlayout-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintlayoutCompose" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
 compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
